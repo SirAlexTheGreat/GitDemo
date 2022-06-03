@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="Learning.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Homepage(failed)" verbose="0">
+    <classes>
+      <class name="Learning.HomepageTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="basePageNavigation"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Learning.HomepageTest -->
+    </classes>
+  </test> <!-- Homepage(failed) -->
+  <test thread-count="5" parallel="tests" name="Cartpage(failed)" verbose="0">
+    <classes>
+      <class name="Learning.CartpageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="cartPageElements"/>
+          <include name="initilize"/>
+        </methods>
+      </class> <!-- Learning.CartpageTest -->
+    </classes>
+  </test> <!-- Cartpage(failed) -->
+</suite> <!-- Failed suite [Suite] -->
