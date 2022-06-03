@@ -80,7 +80,6 @@ public class StepDefinitions extends base{
 		System.out.println("GitTest");
 		System.out.println("GitTest2");
 		System.out.println("GitTest-branch");
-		System.out.println("GitTest-dev");
 		System.out.println("GitTest-develop");
 		System.out.println("GitTest-test");
     }
