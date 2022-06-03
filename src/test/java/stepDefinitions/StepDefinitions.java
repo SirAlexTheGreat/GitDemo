@@ -77,6 +77,7 @@ public class StepDefinitions extends base{
 		    //exception handling
 		}
 		log.info("Homepage Test done");
+		System.out.println("GitTest");
     }
     
     @And("^Close browsers$")
